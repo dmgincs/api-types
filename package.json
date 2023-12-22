@@ -1,0 +1,16 @@
+{
+  "name": "@dmgincs/api-types",
+  "description": "DamageInc's API Typescript DTO files",
+  "version": "0.0.2-0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:dmgincs/api-types.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  }
+}
