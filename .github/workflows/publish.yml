@@ -1,0 +1,59 @@
+name: Publish
+permissions: write-all
+
+on:
+  push:
+    branches:
+      - "master"
+      - "develop"
+  workflow_dispatch:
+    
+jobs:
+  push-api-types:
+    name: Push @dmgincs/api-types
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Generate a token
+        id: generate_token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.DMGINC_APP_ID }}
+          private-key: ${{ secrets.DMGINC_APP_PRIVATE_KEY }}
+
+      - name: Setup git user
+        run: |
+            git config --global user.name "DamageInc Devs"
+            git config --global user.email "devs@dmginc.gg"
+
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies
+        run: yarn
+        
+      - name: Bump version (prerelease)
+        if: github.ref == 'refs/heads/develop'
+        env:
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+        run: npm version prerelease
+
+      - name: Bump version (release)
+        if: github.ref == 'refs/heads/master'
+        env:
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+        run: npm version minor
+
+      - name: Build package
+        run: yarn build
+
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+        
+      - run: git push
