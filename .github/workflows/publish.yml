@@ -16,18 +16,19 @@ jobs:
 
     steps:
       - name: Generate a token
-        id: generate_token
+        id: app-token
         uses: actions/create-github-app-token@v1
         with:
           app-id: ${{ secrets.DMGINC_APP_ID }}
           private-key: ${{ secrets.DMGINC_APP_PRIVATE_KEY }}
 
-      - name: Setup git user
-        run: |
-            git config --global user.name "DamageInc Devs"
-            git config --global user.email "devs@dmginc.gg"
-
       - uses: actions/checkout@v4
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+
+      - run: |
+          git -C ./libs/api-types config --global user.name "damageinc-bot[bot]"
+          git -C ./libs/api-types config --global user.email "147310067+damageinc-bot[bot]@users.noreply.github.com"
       
       - uses: actions/setup-node@v3
         with:
@@ -39,14 +40,10 @@ jobs:
         
       - name: Bump version (prerelease)
         if: github.ref == 'refs/heads/develop'
-        env:
-          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
         run: npm version prerelease
 
       - name: Bump version (release)
         if: github.ref == 'refs/heads/master'
-        env:
-          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
         run: npm version minor
 
       - name: Build package
