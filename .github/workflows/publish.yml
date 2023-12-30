@@ -27,8 +27,8 @@ jobs:
           token: ${{ steps.app-token.outputs.token }}
 
       - run: |
-          git -C ./libs/api-types config --global user.name "damageinc-bot[bot]"
-          git -C ./libs/api-types config --global user.email "147310067+damageinc-bot[bot]@users.noreply.github.com"
+          git config --global user.name "damageinc-bot[bot]"
+          git config --global user.email "147310067+damageinc-bot[bot]@users.noreply.github.com"
       
       - uses: actions/setup-node@v3
         with:
