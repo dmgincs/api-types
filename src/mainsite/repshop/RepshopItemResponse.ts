@@ -33,5 +33,5 @@ export class RepshopItemResponseDto {
     /** Whether the item is selectable after a purchase */
     isSelectable: boolean;
 
-    profileFieldMap: object;
+    profileFieldMap: Record<string, unknown>;
 }

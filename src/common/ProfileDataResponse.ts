@@ -92,7 +92,7 @@ export class ProfileDataResponseDto {
     is_trusted_host: boolean;
 }
 
-export class ProfileDataDro {
+export class GetProfileDataDto {
 
     members: {
         [memberID: number]: ProfileDataResponseDto;

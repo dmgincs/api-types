@@ -14,7 +14,7 @@ class PaginatedMeta {
     totalPages: number;
 
     /** The filters applied to the current pagination */
-    filter: Record<string, string>;
+    filter?: Record<string, string | string[]>;
 
     /** The search keyword that was applied */
     search?: string;

@@ -26,6 +26,7 @@ export * from './GetMemberVotingPaginatedResponse';
 export * from './GetMemberVotingResponse';
 export * from './GetNewsResponse';
 export * from './GetOrderResponse';
+export * from './GetRecruiterTierResponse';
 export * from './GetRecruitsActivityResponse';
 export * from './GetRecruitsTopFiveResponse';
 export * from './GetRepActivityResponse';

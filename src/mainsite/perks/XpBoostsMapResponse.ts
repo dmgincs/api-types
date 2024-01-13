@@ -1,5 +1,5 @@
 
-export class XpBoostsMapDto {
+export class XpBoostsMapResponseDto {
 
     /** Global XP Boost */
     global: number;

@@ -1,5 +1,6 @@
 /* eslint-disable no-restricted-imports */
 import { MemberRanks } from '~/constants/MemberRanks';
+import { AwayHistoryStatus } from '~/types/mainsite/AwayHistoryStatus';
 
 export class AwayHistoryResponseDto {
     /** History ID */
@@ -18,7 +19,7 @@ export class AwayHistoryResponseDto {
     previous_group_id: number | null;
 
     /** Status */
-    status: number;
+    status: AwayHistoryStatus;
 
     /** Last updated timestamp */
     last_updated: Date;
