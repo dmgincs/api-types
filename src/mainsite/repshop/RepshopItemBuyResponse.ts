@@ -23,4 +23,7 @@ export class RepshopItemBuyResponseDto {
 
     /** The date at which the purchase was processed */
     itemProcessedDate: Date | null;
+
+    /** Whether the item is currently activated for the member */
+    itemActive?: boolean;
 }

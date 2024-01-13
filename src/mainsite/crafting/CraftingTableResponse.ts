@@ -7,16 +7,16 @@ export class CraftingTableResponseDto {
     table_number: number;
 
     /** The recipe id */
-    recipe_id: number;
+    recipe_id: number | null;
 
     /** The item one id */
     item_one_id: number;
 
     /** The item two id */
-    item_two_id: number;
+    item_two_id: number | null;
 
     /** The item three id */
-    item_three_id: number;
+    item_three_id: number | null;
 
     /** The xp gained */
     xp_gained: number;

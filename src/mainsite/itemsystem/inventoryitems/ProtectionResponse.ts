@@ -9,4 +9,7 @@ export class ProtectionResponseDto {
 
     /** Whether the protection is active */
     isActive: boolean;
+
+    /** The name of where the protection is coming from */
+    name: string;
 }

@@ -1,6 +1,6 @@
 /* eslint-disable max-classes-per-file */
 
-class RepshopSubcategoryDto {
+export class RepshopSubcategoryDto {
     /** The subcategory ID */
     id: number;
 
