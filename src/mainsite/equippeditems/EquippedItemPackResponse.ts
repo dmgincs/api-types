@@ -1,4 +1,4 @@
-import { ItemPackWithBenefitResponseDto } from '../../itemsystem/items/dto';
+import { ItemPackWithBenefitResponseDto } from '~/mainsite/itemsystem/items';
 
 export class EquippedItemPackResponseDto {
 
