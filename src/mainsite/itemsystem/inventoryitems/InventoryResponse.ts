@@ -21,4 +21,7 @@ export class InventoryResponseDto {
 
     /** Whether the item is in use */
     in_use: boolean;
+
+    /** How many of the item are in the stack */
+    quantity: number;
 }

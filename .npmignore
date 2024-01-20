@@ -1,1 +1,3 @@
 src
+tsconfig.build.json
+node_modules

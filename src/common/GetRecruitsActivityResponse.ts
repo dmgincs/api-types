@@ -27,5 +27,5 @@ export class GetRecruitsActivityResponseObjectDto {
 }
 
 export class GetRecruitsActivityResponseDto {
-
+    [key: string]: GetRecruitsActivityResponseObjectDto;
 }
