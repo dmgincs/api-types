@@ -92,8 +92,9 @@ export enum PermissionObjectNames {
     INITIATE_COHORT_MESSAGE = 'initiate.cohort.message',
     INITIATE_GRADUATION = 'initiate.graduation',
     INITIATE_VOTING = 'initiate.voting',
-    RECRUIT_LOGS = 'recruit_logs',
-    REP = 'rep', // remember DELETE will only work for Dev, even if you give it to more
+    DAILY_ACTIVITY_LOGS = 'logs.daily_activity',
+    RECRUIT_LOGS = 'recruit_logs', // todo: rename to logs.recruits
+    REP = 'rep', // remember DELETE will only work for Dev, even if you give the permission out to non-Dev
     REPORTS_AGE = 'reports.age',
     REPORTS_COHORT = 'reports.cohort',
     REPORTS_CSV = 'reports.csv',
