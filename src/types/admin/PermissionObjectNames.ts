@@ -110,4 +110,5 @@ export enum PermissionObjectNames {
     REPORTS__CSV = 103,
     REPORTS__LEVEL__RANK_UP = 104,
     REPORTS__LFT_DATA = 105,
+    REPORTS__INACTIVITY = 106,
 }
