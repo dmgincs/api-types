@@ -26,15 +26,15 @@ export const EventTypeRepTypes: { [key in EventTypes]: EmtRepTypes } = {
 };
 
 export const EventTypePermissionObjects: { [key in EventTypes]: PermissionObjectNames } = {
-    [EventTypes.CASUAL]: PermissionObjectNames.EMT_LOG_CASUAL,
-    [EventTypes.COMPETITIVE]: PermissionObjectNames.EMT_LOG_COMPETITIVE,
-    [EventTypes.COMMUNITY]: PermissionObjectNames.EMT_LOG_COMMUNITY,
-    [EventTypes.TWITCH]: PermissionObjectNames.EMT_LOG_TWITCH,
-    [EventTypes.MEETING]: PermissionObjectNames.EMT_LOG_MEETING,
-    [EventTypes.COACH]: PermissionObjectNames.EMT_LOG_COACH,
-    [EventTypes.TRAINING]: PermissionObjectNames.EMT_LOG_TRAINING,
-    [EventTypes.REAL_LIFE]: PermissionObjectNames.EMT_LOG_REAL_LIFE,
-    [EventTypes.SOCIAL]: PermissionObjectNames.EMT_LOG_SOCIAL
+    [EventTypes.CASUAL]: PermissionObjectNames.EMT__LOG__CASUAL,
+    [EventTypes.COMPETITIVE]: PermissionObjectNames.EMT__LOG__COMPETITIVE,
+    [EventTypes.COMMUNITY]: PermissionObjectNames.EMT__LOG__COMMUNITY,
+    [EventTypes.TWITCH]: PermissionObjectNames.EMT__LOG__TWITCH,
+    [EventTypes.MEETING]: PermissionObjectNames.EMT__LOG__MEETING,
+    [EventTypes.COACH]: PermissionObjectNames.EMT__LOG__COACH,
+    [EventTypes.TRAINING]: PermissionObjectNames.EMT__LOG__TRAINING,
+    [EventTypes.REAL_LIFE]: PermissionObjectNames.EMT__LOG__REAL_LIFE,
+    [EventTypes.SOCIAL]: PermissionObjectNames.EMT__LOG__SOCIAL
 };
 
 export enum EventRegions {
@@ -52,7 +52,7 @@ export enum EventRsvpTypes {
 }
 
 export const EventRsvpInvitePermissionObjects: { [key: string]: PermissionObjectNames } = {
-    'new initiates': PermissionObjectNames.EMT_INVITE_NEW_INITIATES
+    'new initiates': PermissionObjectNames.EMT__INVITE__NEW_INITIATES
 };
 
 export const NumberOfFreeCoachingEvents = 2;
