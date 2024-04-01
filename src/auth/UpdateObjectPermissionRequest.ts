@@ -1,5 +1,4 @@
 /* eslint-disable max-classes-per-file */
-import { PermissionActions } from '~/types/PermissionAction';
 
 class UpdatedPermission {
 
@@ -9,7 +8,7 @@ class UpdatedPermission {
 
     /** The action of the permission */
 
-    action: PermissionActions;
+    action: string;
 
     /** Whether the action is allowed */
 

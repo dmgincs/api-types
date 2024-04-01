@@ -1,10 +1,5 @@
 
 export class UpdateMemberProfileRequestDto {
-
-    /** The member ID to update */
-
-    memberId: number;
-
     /** The member name to update */
 
     name: string;
@@ -13,9 +8,9 @@ export class UpdateMemberProfileRequestDto {
 
     memberGroupId: number;
 
-    /** The member group name to update */
+    /** The member secondary groups to update */
 
-    memberSecondaryGroups: string[];
+    memberSecondaryGroups: number[];
 
     /** The member house to update */
 

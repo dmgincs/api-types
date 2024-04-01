@@ -1,5 +1,4 @@
 /* eslint-disable max-classes-per-file */
-import { PermissionActions } from '~/types/PermissionAction';
 
 class DeletedPermission {
     /** The permission object ID to delete */
@@ -8,7 +7,7 @@ class DeletedPermission {
 
     /** The associated action to remove */
 
-    action: PermissionActions;
+    action: string;
 }
 
 export class DeleteObjectPermissionsRequestDto {
