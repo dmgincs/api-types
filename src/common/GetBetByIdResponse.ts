@@ -3,13 +3,16 @@
 /* eslint-disable max-classes-per-file */
 class BetCategoryResponse {
     /** A map of member id -> bet rep */
-    bets: Record<number, number>;
+    betParticipants: Record<number, number>;
 
     /** The name of the betting option */
     name: string;
 
     /** The total amount of rep bet on the category */
     totalBetRep: number;
+
+    /** The total amount of bets on the category */
+    totalBets: number;
 }
 
 class BetSettings {
@@ -20,7 +23,7 @@ class BetSettings {
     winner: string | null;
 }
 
-export class GetBetResponseDto {
+export class GetBetByIdResponseDto {
     /** The different betting categories */
     categories: BetCategoryResponse[];
 
