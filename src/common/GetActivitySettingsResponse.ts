@@ -1,8 +1,11 @@
 /* eslint-disable max-classes-per-file */
 
 class DiscordValueThreshold {
+    /** The amount of discord days a member has to get in the specified timeFrame */
+    days: number;
+
     /** The amount of discord hours a member has to get in the specified timeFrame */
-    value: number;
+    hours: number;
 
     /** The timeFrame in which the member has to get the specified discord activity */
     timeFrame: string;
@@ -18,7 +21,7 @@ class Reputation {
 
 export class GetActivitySettingsResponseDto {
 
-    discord_value_threshold: DiscordValueThreshold;
+    discord: DiscordValueThreshold;
 
     rep: Reputation;
 }
