@@ -3,6 +3,7 @@ export * from './AwardResponse';
 export * from './CreateAwardRequest';
 export * from './CreateStrikeRequest';
 export * from './GetLogOptionsResponse';
+export * from './GetIPSStrikesResponse';
 export * from './HouseResponse';
 export * from './IssueAwardRequest';
 export * from './IssuedAwardResponse';
