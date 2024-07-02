@@ -37,6 +37,9 @@ export class GetEventResponseDto {
     /** Whether the event is a flex event */
     is_flex: boolean;
 
+    /** Whether the event is 21+ */
+    is_over21: boolean;
+
     /** The ID of the member whom posted the event */
     posted_by: number;
 

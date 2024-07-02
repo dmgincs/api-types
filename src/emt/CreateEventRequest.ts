@@ -28,6 +28,9 @@ export class CreateEventRequestDto {
     /** Whether the event is a flex event, meaning anyone can join whenever they want */
     is_flex: boolean;
 
+    /** Whether the event is a 21+ event, meaning only members who are above the age of 21 can join */
+    is_over21: boolean;
+
     /** The member ID of the host */
     host_id: number;
 
