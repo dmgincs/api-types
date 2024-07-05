@@ -7,4 +7,6 @@ export namespace ActivitySettings {
     export const MAX_CONSECUTIVE_INITIATE_INACTIVE_MONTHS = 2;
     export const MIN_REP_EARNED_FOR_INITIATE_BUMP = 50;
     export const DISCORD_ACTIVITY_THRESHOLD_DAYS = 7;
+
+    export const GGWP_ACTIVITY_REQUIREMENTS_STREAK_REQUIRED = 6;
 }

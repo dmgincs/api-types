@@ -10,3 +10,4 @@ export const DAY_SECONDS = DAY_HOURS * HOUR_SECONDS;
 export const WEEK_SECONDS = DAY_SECONDS * 7;
 export const MONTH_SECONDS = DAY_SECONDS * 30;
 export const DEFAULT_TIMEZONE = 'America/New_York';
+export const DATABASE_TIMEZONE = 'Etc/GMT';
