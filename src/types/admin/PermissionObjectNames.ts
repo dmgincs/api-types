@@ -29,6 +29,7 @@ export enum PermissionObjectNames {
     MEMBERS__AWAY = 19,
     MEMBERS__NOTIFY = 20,
     MEMBERS__EMAIL = 21,
+    MEMBERS__INTEGRATION = 107,
 
     // SELF is for fetching/changing data about THEMSELVES
     SELF = 25, // for getting a basic summary/mini-profile about yourself.
