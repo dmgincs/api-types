@@ -5,7 +5,7 @@ export class NotificationSettingsDto {
     description: string;
 
     /** List of enabled platforms */
-    platform: Record<NotificationPlatforms, boolean>;
+    platforms: Record<NotificationPlatforms, boolean>;
 }
 
 export type GetNotificationSettingsResponseDto = {

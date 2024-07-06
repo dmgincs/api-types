@@ -4,6 +4,7 @@ export * from './ConfirmMinecraftLinkRequest';
 export * from './GetActivityResponse';
 export * from './GetActivitySettingsResponse';
 export * from './GetBetsResponse';
+export * from './GetBetByIdResponse';
 export * from './GetCommonGameResponse';
 export * from './GetDiscordActivityResponse';
 export * from './GetDiscordRolesResponse';
