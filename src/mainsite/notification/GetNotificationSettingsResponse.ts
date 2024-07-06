@@ -1,6 +1,6 @@
 import { NotificationApplications, NotificationPlatforms } from '~/types/Notification';
 
-class NotificationSettingsDto {
+export class NotificationSettingsDto {
     /** Description about the notification platform */
     description: string;
 

@@ -2,6 +2,7 @@ export * from './PaginatedResponse';
 export * from './admin/index';
 export * from './auth/index';
 export * from './common/index';
+export * from './common/mobile/index';
 export * from './discord/index';
 export * from './emt/index';
 export * from './files/index';

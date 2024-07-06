@@ -1,0 +1,11 @@
+export enum ItemRecordStatus {
+    IN_INVENTORY,
+    AUCTIONED,
+    SOLD,
+    CONSUMED,
+    CLEARED,
+    AUCTIONED_SOLD,
+    DESPAWNED,
+    IN_CRAFTING_TABLE,
+    CRAFTING_CONSUMED
+}
