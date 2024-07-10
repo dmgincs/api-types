@@ -32,6 +32,7 @@ export * from './GetRecruitsActivityResponse';
 export * from './GetRecruitsTopFiveResponse';
 export * from './GetRepActivityResponse';
 export * from './GetRepTopFiveResponse';
+export * from './GgwpStatusResponse';
 export * from './InitiateApplicationApproveRequest';
 export * from './LinkMinecraftRequest';
 export * from './ProfileDataResponse';
