@@ -43,3 +43,4 @@ export * from './SendMailRequest';
 export * from './UnlinkMinecraftRequest';
 export * from './UpdateDiscordRolesRequest';
 export * from './UpdateMobileSettingsRequest';
+export * from './GetHostsTopFiveResponse';
