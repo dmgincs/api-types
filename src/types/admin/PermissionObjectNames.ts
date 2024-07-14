@@ -49,6 +49,7 @@ export enum PermissionObjectNames {
     // EMT
     EMT__EVENT = 38,
     EMT__EVENT__HISTORY = 39,
+    EMT__EVENT__FEATURE = 108,
     EMT__EVENT__RSVP = 40,
     EMT__EVENTS = 41,
     EMT__HOSTING = 42,
