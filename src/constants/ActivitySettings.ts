@@ -9,4 +9,5 @@ export namespace ActivitySettings {
     export const DISCORD_ACTIVITY_THRESHOLD_DAYS = 7;
 
     export const GGWP_ACTIVITY_REQUIREMENTS_STREAK_REQUIRED = 6;
+    export const GGWP_MINIMUM_REP_REQUIRED = 25;
 }
