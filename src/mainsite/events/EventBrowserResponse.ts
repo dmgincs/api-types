@@ -51,5 +51,8 @@ export class EventBrowserResponseDto {
 
     /** Event Image Path */
     imagePath: string | null;
+
+    /** Event 21+ */
+    is_over_21: boolean;
 }
 
