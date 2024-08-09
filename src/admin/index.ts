@@ -12,6 +12,7 @@ export * from './IssueStrikeRequest';
 export * from './LogResponse';
 export * from './MemberNoteResponse';
 export * from './MergeDivisionRequest';
+export * from './ReIssueStrikeRequest';
 export * from './SendImpCohortExamMessageRequest';
 export * from './SendImpCohortMessageRequest';
 export * from './SplitDivisionRequest';

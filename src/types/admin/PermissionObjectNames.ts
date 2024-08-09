@@ -93,6 +93,7 @@ export enum PermissionObjectNames {
     FILES = 83,
     MEMBER__ACCOUNT = 84,
     STRIKES = 85,
+    STRIKES_REISSUE = 109,
     STRIKES__ISSUE_ANY_RANK = 86,
 
     // ORDERS
