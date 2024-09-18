@@ -15,6 +15,7 @@ export * from './MergeDivisionRequest';
 export * from './ReIssueStrikeRequest';
 export * from './SendImpCohortExamMessageRequest';
 export * from './SendImpCohortMessageRequest';
+export * from './SendLmCohortMessageRequest';
 export * from './SplitDivisionRequest';
 export * from './StrikeResponse';
 export * from './UpdateAwardRequest';
