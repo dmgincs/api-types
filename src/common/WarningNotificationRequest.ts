@@ -127,9 +127,9 @@ export class WarningNotificationRequestDto {
 
     reason: WarningNotificationReason;
 
-    expiration: Date | number;
+    expiration: string;
 
-    date: Date;
+    date: string;
 
     acknowledged: boolean;
 
