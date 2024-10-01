@@ -1,7 +1,7 @@
 {
   "name": "@dmgincs/api-types",
   "description": "DamageInc's API Typescript DTO files",
-  "version": "0.7.1-25",
+  "version": "0.7.1-26",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/dmgincs/api-types",
