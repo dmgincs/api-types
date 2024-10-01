@@ -10,5 +10,6 @@ export const DAY_SECONDS = DAY_HOURS * HOUR_SECONDS;
 export const WEEK_SECONDS = DAY_SECONDS * 7;
 export const MONTH_SECONDS = DAY_SECONDS * 30;
 // https://momentjs.com/timezone/docs/#/zone-object/offset/
+// eslint-disable-next-line spellcheck/spell-checker
 export const DEFAULT_TIMEZONE = 'Etc/GMT+4'; // EST (+4 will convert to -4, according to moment docs)
 export const DATABASE_TIMEZONE = 'Etc/GMT';

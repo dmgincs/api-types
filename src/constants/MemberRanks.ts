@@ -51,6 +51,8 @@ export const LEVELS_ORDERED = [
     'L9'
 ];
 
+export const LevelIsGreaterThanOrEqualTo = (levelInQuestion: string, levelToCompareTo: string): boolean => LEVELS_ORDERED.indexOf(levelInQuestion) >= LEVELS_ORDERED.indexOf(levelToCompareTo);
+
 export const MEMBER_RANK_NAMES: { [key in MemberRanks]: string } = {
     [MemberRanks.LEADER]: 'Leader',
     [MemberRanks.L8]: 'L8',
@@ -127,4 +129,10 @@ export const FULL_MEMBER_RANKS = [
     MemberRanks.SENIOR,
     MemberRanks.MEMBER,
     MemberRanks.PROBATION
+];
+
+/* The ranks included in MemberRanks that are only assigned as a secondary role */
+export const SECONDARY_RANKS = [
+    MemberRanks.COUNCIL,
+    MemberRanks.ACP_SECONDARY
 ];

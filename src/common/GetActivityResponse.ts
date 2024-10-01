@@ -1,6 +1,12 @@
 /* eslint-disable max-classes-per-file */
 
 export class GetActivityResponseObjectDto {
+    /** The amount of events attended for the current timeFrame */
+    currentEventsAttended: number;
+
+    /** The amount of events attended for the last timeFrame */
+    lastEventsAttended: number;
+
     /** The amount of REP for the current timeFrame */
     currentRep: number;
 
