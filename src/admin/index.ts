@@ -5,6 +5,7 @@ export * from './CreateStrikeRequest';
 export * from './GetLogOptionsResponse';
 export * from './GetIPSStrikesResponse';
 export * from './HouseResponse';
+export * from './IPSStrikeReasons';
 export * from './IssueAwardRequest';
 export * from './IssuedAwardResponse';
 export * from './IssuedStrikeResponse';
