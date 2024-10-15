@@ -14,7 +14,4 @@ export class BoostedDivisionsDataResponseDto {
 
     /** Boost percentage */
     boost_percentage: number | null;
-
-    /** Handicap percentage */
-    handicap_percentage: number | null;
 }
