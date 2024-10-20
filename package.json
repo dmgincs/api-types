@@ -7,10 +7,13 @@
   "repository": "https://github.com/dmgincs/api-types",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf dist && tsc -p tsconfig.build.json"
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
+    "postinstall": "ts-patch install"
   },
   "devDependencies": {
     "rimraf": "^5.0.5",
-    "typescript": "^5.3.3"
+    "ts-patch": "^3.2.1",
+    "typescript": "^5.3.3",
+    "typescript-transform-paths": "^3.5.1"
   }
 }
