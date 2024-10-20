@@ -16,8 +16,6 @@ export class UpdateNotificationSettingsRequestDto {
 
     item_drops: NotificationPlatforms[];
 
-    member_dues: NotificationPlatforms[];
-
     member_graduation: NotificationPlatforms[];
 
     preference: object;
