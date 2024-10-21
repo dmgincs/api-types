@@ -3,7 +3,7 @@
 /* eslint-disable max-classes-per-file */
 class BetCategoryResponse {
     /** A map of member id -> bet rep */
-    betParticipants: Record<number, number>;
+    betParticipants: { memberId: number; repPaid: number }[];
 
     /** The name of the betting option */
     name: string;
