@@ -1,7 +1,9 @@
 export enum ItemTiers {
-    LEGENDARY = 0,
-    EPIC = 1,
-    RARE = 2,
-    UNCOMMON = 3,
-    COMMON = 4
+    MYTHIC = 0,
+    LEGENDARY = 1,
+    HEROIC = 2,
+    EPIC = 3,
+    RARE = 4,
+    UNCOMMON = 5,
+    COMMON = 6
 }
