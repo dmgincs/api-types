@@ -19,6 +19,8 @@ export const EmtSettings = {
     /* attendance awards */
     TOKEN_TIME_SECONDS: HOUR_SECONDS,
     REP_RATE_ATTENDANCE_DEFAULT: 10,
+    /** for use on events that are not DI's core gaming events (bondings, meetings, social) */
+    REP_RATE_ATTENDANCE_NON_GAMING: 5,
     REP_RATE_ATTENDANCE_COMMUNITY: 15,
     REP_RATE_ATTENDANCE_TWITCH: 3,
     REP_RATE_ATTENDANCE_TEAM_COACHING: -25,
