@@ -1,4 +1,5 @@
 export * from './BuyRepshopItemRequest';
+export * from './DailyItemResponse';
 export * from './GetTaxReductionResponse';
 export * from './ProcessRepshopItemRequest';
 export * from './RepshopCategoryResponse';

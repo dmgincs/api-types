@@ -7,6 +7,7 @@ export class RepshopItemBuyResponseDto {
     /** The ID of the member */
     member_id: number;
 
+    /** The status of the purchase */
     status: StatusNames;
 
     /** The ID of the item which was purchased */
