@@ -1,5 +1,5 @@
-import { DailyItemSlot } from '~/constants/DailyItemSlotDropRates';
-import { ItemResponseDto } from '../../itemsystem/items/dto';
+import { ItemResponseDto } from '~/mainsite/itemsystem/items';
+import { DailyItemSlot } from '~/types/mainsite/DailyItemSlot';
 
 export class DailyItemResponseDto {
     /** The item itself */
