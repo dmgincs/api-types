@@ -13,9 +13,6 @@ export class XpBoostsMapResponseDto {
     /** Comp Attendance XP Boost */
     comp_attendance: number;
 
-    /** Twitch Attendance XP Boost */
-    twitch_attendance: number;
-
     /** Hosting XP Boost */
     hosting: number;
 

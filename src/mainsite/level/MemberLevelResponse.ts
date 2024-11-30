@@ -33,9 +33,6 @@ export class MemberLevelResponseDto {
     /** The comp category levels */
     comp_attendance: MemberLevelCategory | number;
 
-    /** The twitch category levels */
-    twitch_attendance: MemberLevelCategory | number;
-
     /** The hosting category levels */
     hosting: MemberLevelCategory | number;
 

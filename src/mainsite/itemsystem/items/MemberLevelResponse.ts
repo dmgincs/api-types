@@ -1,4 +1,4 @@
-type LevelKeys = 'leadership' | 'casual_attendance' | 'comp_attendance' | 'twitch_attendance' | 'hosting' | 'discord' | 'recruiting' | 'crafting';
+type LevelKeys = 'leadership' | 'casual_attendance' | 'comp_attendance' | 'hosting' | 'discord' | 'recruiting' | 'crafting';
 
 export type MemberLevelResponse = Record<LevelKeys, {
     category_id: number;

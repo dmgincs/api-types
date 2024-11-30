@@ -24,9 +24,6 @@ export class XpBoostNamesResponseDto {
     /** Boost applied to competitive attendance category */
     comp_attendance: XpBoostNameDto;
 
-    /** Boost applied to twitch attendance category */
-    twitch_attendance: XpBoostNameDto;
-
     /** Boost applied to hosting category */
     hosting: XpBoostNameDto;
 

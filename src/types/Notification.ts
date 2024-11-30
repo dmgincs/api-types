@@ -18,6 +18,7 @@ export enum NotificationApplications {
     DIVISION_UPDATES = 1024,
     STRIKES = 2048,
     AWARDS = 4096,
+    REP_CAP_NOTIFICATION = 8192,
 }
 
 export const NotificationApplicationsInfo: { [key in NotificationApplications]: { description: string; platforms: NotificationPlatforms } } = {
@@ -71,6 +72,10 @@ export const NotificationApplicationsInfo: { [key in NotificationApplications]: 
     },
     [NotificationApplications.AWARDS]: {
         description: 'Award System.',
+        platforms: NotificationPlatforms.DISCORD | NotificationPlatforms.MOBILE | NotificationPlatforms.WEBAPP
+    },
+    [NotificationApplications.REP_CAP_NOTIFICATION]: {
+        description: 'Reputation Cap Notifications.',
         platforms: NotificationPlatforms.DISCORD | NotificationPlatforms.MOBILE | NotificationPlatforms.WEBAPP
     }
 };
