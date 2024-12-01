@@ -10,4 +10,7 @@ export class DailyItemResponseDto {
 
     /** The day during which an item can be bought */
     day: Date;
+
+    /** If the item was already bought */
+    purchased: boolean;
 }
