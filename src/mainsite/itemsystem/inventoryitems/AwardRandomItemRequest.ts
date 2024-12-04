@@ -11,4 +11,8 @@ export class AwardRandomItemRequestDto {
     /** The reason for the item */
 
     reason?: string;
+
+    /** The amount of items to issue */
+
+    count?: number;
 }
