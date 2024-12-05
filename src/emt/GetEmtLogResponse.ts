@@ -40,6 +40,9 @@ class EmtLogAwardMetadata {
 
     /** Other REP issued */
     misc: string[];
+
+    /** Boost attendees are getting because host has Vanguard */
+    vanguard_attendee_multiplier: number;
 }
 
 export class EmtLogAward {
