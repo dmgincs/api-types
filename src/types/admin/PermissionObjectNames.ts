@@ -59,6 +59,7 @@ export enum PermissionObjectNames {
     EMT__LOG__COACH = 46,
     EMT__LOG__COMMUNITY = 47,
     EMT__LOG__COMPETITIVE = 48,
+    EMT__LOG__INTEGRATION = 116,
     EMT__LOG__MEETING = 49,
     EMT__LOG__MORNING_TEA = 50,
     EMT__LOG__REAL_LIFE = 51,

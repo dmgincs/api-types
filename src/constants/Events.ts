@@ -10,7 +10,8 @@ export enum EventTypes {
     COACH = 'coach',
     TRAINING = 'training',
     REAL_LIFE = 'real life',
-    SOCIAL = 'social'
+    SOCIAL = 'social',
+    INTEGRATION = 'integration'
 }
 
 export const EventTypeRepTypes: { [key in EventTypes]: EmtRepTypes } = {
@@ -22,7 +23,8 @@ export const EventTypeRepTypes: { [key in EventTypes]: EmtRepTypes } = {
     [EventTypes.COACH]: EmtRepTypes.EVENT_TYPE_COACHING,
     [EventTypes.TRAINING]: EmtRepTypes.EVENT_TYPE_TRAINING,
     [EventTypes.REAL_LIFE]: EmtRepTypes.EVENT_TYPE_REAL_LIFE,
-    [EventTypes.SOCIAL]: EmtRepTypes.EVENT_TYPE_SOCIAL
+    [EventTypes.SOCIAL]: EmtRepTypes.EVENT_TYPE_SOCIAL,
+    [EventTypes.INTEGRATION]: EmtRepTypes.EVENT_TYPE_CASUAL
 };
 
 export const EventTypePermissionObjects: { [key in EventTypes]: PermissionObjectNames } = {
@@ -34,7 +36,8 @@ export const EventTypePermissionObjects: { [key in EventTypes]: PermissionObject
     [EventTypes.COACH]: PermissionObjectNames.EMT__LOG__COACH,
     [EventTypes.TRAINING]: PermissionObjectNames.EMT__LOG__TRAINING,
     [EventTypes.REAL_LIFE]: PermissionObjectNames.EMT__LOG__REAL_LIFE,
-    [EventTypes.SOCIAL]: PermissionObjectNames.EMT__LOG__SOCIAL
+    [EventTypes.SOCIAL]: PermissionObjectNames.EMT__LOG__SOCIAL,
+    [EventTypes.INTEGRATION]: PermissionObjectNames.EMT__LOG__INTEGRATION
 };
 
 export enum EventRegions {

@@ -40,6 +40,9 @@ export class GetActivityResponseObjectDto {
     /** `Whether the member joined in the last ${NewInitiateActivitySettings.NEW_INITIATE_DAYS} days` */
     isNewInitiate: boolean;
 
+    /** If member is a new initiate, whether they have met the new initiate activity requirement */
+    isActiveNewInitiate: boolean | null;
+
     /** Whether the member\s activity should be checked */
     shouldCheckActivity: boolean;
 
