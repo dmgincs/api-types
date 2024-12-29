@@ -7,6 +7,7 @@ export * from './discord/index';
 export * from './emt/index';
 export * from './files/index';
 export * from './mainsite/awayhistory/index';
+export * from './mainsite/battlepass/index';
 export * from './mainsite/battlestats/index';
 export * from './mainsite/boosts/index';
 export * from './mainsite/crafting/index';
