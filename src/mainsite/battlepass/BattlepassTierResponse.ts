@@ -1,4 +1,4 @@
-import { ItemWithBenefitResponseDto } from '../../itemsystem/items/dto';
+import { ItemWithBenefitResponseDto } from '~/mainsite/itemsystem/items';
 
 export class BattlepassTierResponseDto {
     /** The benefits associated with equipping the item */
