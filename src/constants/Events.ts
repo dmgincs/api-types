@@ -24,7 +24,7 @@ export const EventTypeRepTypes: { [key in EventTypes]: EmtRepTypes } = {
     [EventTypes.TRAINING]: EmtRepTypes.EVENT_TYPE_TRAINING,
     [EventTypes.REAL_LIFE]: EmtRepTypes.EVENT_TYPE_REAL_LIFE,
     [EventTypes.SOCIAL]: EmtRepTypes.EVENT_TYPE_SOCIAL,
-    [EventTypes.INTEGRATION]: EmtRepTypes.EVENT_TYPE_CASUAL
+    [EventTypes.INTEGRATION]: EmtRepTypes.EVENT_TYPE_INTEGRATION
 };
 
 export const EventTypePermissionObjects: { [key in EventTypes]: PermissionObjectNames } = {
