@@ -41,6 +41,9 @@ class EmtLogAwardMetadata {
     /** Other REP issued */
     misc: string[];
 
+    /** The REP boost multiplier applied to the awards */
+    rep_boost_multiplier: number;
+
     /** Boost attendees are getting because host has Vanguard */
     vanguard_attendee_multiplier: number;
 }

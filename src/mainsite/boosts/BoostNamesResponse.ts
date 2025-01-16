@@ -1,6 +1,6 @@
 /* eslint-disable max-classes-per-file */
 
-export class XpBoostNameDto {
+export class BoostNameDto {
     /** The names of the boosts that are active. */
     boosts: string[];
 
@@ -11,28 +11,36 @@ export class XpBoostNameDto {
     total_boost_value: number;
 }
 
-export class XpBoostNamesResponseDto {
+export class XpBoostNamesDto {
     /** Boost applied to all categories */
-    global: XpBoostNameDto;
+    global: BoostNameDto;
 
     /** Boost applied to leadership category */
-    leadership: XpBoostNameDto;
+    leadership: BoostNameDto;
 
     /** Boost applied to casual attendance category */
-    casual_attendance: XpBoostNameDto;
+    casual_attendance: BoostNameDto;
 
     /** Boost applied to competitive attendance category */
-    comp_attendance: XpBoostNameDto;
+    comp_attendance: BoostNameDto;
 
     /** Boost applied to hosting category */
-    hosting: XpBoostNameDto;
+    hosting: BoostNameDto;
 
     /** Boost applied to discord category */
-    discord: XpBoostNameDto;
+    discord: BoostNameDto;
 
     /** Boost applied to recruiting category */
-    recruiting: XpBoostNameDto;
+    recruiting: BoostNameDto;
 
     /** Boost applied to crafting category */
-    crafting: XpBoostNameDto;
+    crafting: BoostNameDto;
+}
+
+export class BoostNamesResponseDto {
+    /** Boost applied when earning REP from activity. */
+    rep: BoostNameDto;
+
+    /** Object containing all XP Boosts that apply to the member. */
+    xp: XpBoostNamesDto;
 }
