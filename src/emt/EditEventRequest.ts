@@ -1,3 +1,4 @@
+import { EventRequestedRsvpType } from '~/constants/EventRequestedRsvpType';
 import { EventRegions, EventTypes } from '~/constants/Events';
 
 export class EditEventRequestDto {
@@ -36,4 +37,11 @@ export class EditEventRequestDto {
 
     /** The ID of the image used as the event banner */
     image_id?: number;
+
+    /** Whether an event is private (limited to the requested rsvps) or not */
+    is_private?: boolean;
+
+    /** The group/member(s) to request rsvps from */
+
+    requested_rsvps?: { requested_entity_id: number; type: EventRequestedRsvpType }[];
 }

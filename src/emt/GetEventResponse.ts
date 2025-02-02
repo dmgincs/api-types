@@ -1,3 +1,4 @@
+import { EventRequestedRsvpType } from '~/constants/EventRequestedRsvpType';
 import { EventRegions, EventRsvpTypes, EventTypes } from '~/constants/Events';
 
 export class GetEventResponseDto {
@@ -57,4 +58,10 @@ export class GetEventResponseDto {
         member_id: number;
         rsvpType: EventRsvpTypes;
     }[];
+
+    /** Whether the event is private or not */
+    is_private: boolean;
+
+    /** The group/member(s) rsvps have been requested from */
+    requested_rsvps?: { requested_entity_id: number; type: EventRequestedRsvpType }[];
 }

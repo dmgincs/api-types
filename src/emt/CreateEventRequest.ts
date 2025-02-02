@@ -1,4 +1,5 @@
-import { EventRegions, EventTypes } from '~/constants/Events';
+import { EventRequestedRsvpType } from '~/constants/EventRequestedRsvpType';
+import { EventRegions, EventRsvpTypes, EventTypes } from '~/constants/Events';
 
 export class CreateEventRequestDto {
 
@@ -31,10 +32,24 @@ export class CreateEventRequestDto {
     /** Whether the event is a 21+ event, meaning only members who are above the age of 21 can join */
     is_over21: boolean;
 
+    /** Whether an event is private (limited to the requested rsvps) or not */
+
+    is_private?: boolean;
+
     /** The member ID of the host */
     host_id: number;
 
     /** The ID of the image used as the event banner */
 
     image_id?: number;
+
+    /** A list of all RSVPd members */
+    rsvps: {
+        member_id: number;
+        rsvpType: EventRsvpTypes;
+    }[];
+
+    /** The group/member(s) to request rsvps from */
+
+    requested_rsvps?: { requested_entity_id: number; type: EventRequestedRsvpType }[];
 }
