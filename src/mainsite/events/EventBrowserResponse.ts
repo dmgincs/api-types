@@ -7,6 +7,9 @@ export class EventBrowserResponseDto {
     /** EMT Event ID */
     emt_event_id: number | null;
 
+    /** Host ID */
+    host_id: number;
+
     /** Event Title */
     title: string;
 
@@ -54,5 +57,8 @@ export class EventBrowserResponseDto {
 
     /** Event 21+ */
     is_over_21: boolean;
+
+    /** REP multiplier issued when the host is a Vanguard member */
+    attendance_multiplier: number | null;
 }
 
