@@ -51,5 +51,5 @@ export class CreateEventRequestDto {
 
     /** The group/member(s) to request rsvps from */
 
-    requested_rsvps?: { requested_entity_id: number; type: EventRequestedRsvpType }[];
+    requested_rsvps?: { requested_entity_id: string; type: EventRequestedRsvpType }[];
 }

@@ -71,6 +71,7 @@ export enum PermissionObjectNames {
     EMT__LOG__TRAINING = 53,
     EMT__LOG__TWITCH = 54,
     EMT__LOGS = 55,
+    EMT__LOG__DIVISION_BONDING = 120,
 
     // RPG = CRAFTING/ITEM/LEVEL/PERK/STEAL SYSTEM
     MEMBER__RPG__BOOSTS = 56,

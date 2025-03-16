@@ -1,4 +1,6 @@
 export enum EventRequestedRsvpType {
     MEMBER = 'member',
-    GROUP = 'group'
+    GROUP = 'group',
+    ORDER = 'order',
+    DIVISION = 'division'
 }

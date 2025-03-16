@@ -11,6 +11,7 @@ export enum EmtRepTypes {
     EVENT_TYPE_REAL_LIFE = 9,
     EVENT_TYPE_SOCIAL = 10,
     EVENT_TYPE_INTEGRATION = 11,
+    EVENT_TYPE_DIVISION_BONDING = 12
 }
 
 export const EmtRepNames: { [key in EmtRepTypes]: string } = {
@@ -24,5 +25,6 @@ export const EmtRepNames: { [key in EmtRepTypes]: string } = {
     [EmtRepTypes.EVENT_TYPE_TRAINING]: 'Training Event',
     [EmtRepTypes.EVENT_TYPE_REAL_LIFE]: 'Real Life Event',
     [EmtRepTypes.EVENT_TYPE_SOCIAL]: 'Social Event',
-    [EmtRepTypes.EVENT_TYPE_INTEGRATION]: 'Integration Event'
+    [EmtRepTypes.EVENT_TYPE_INTEGRATION]: 'Integration Event',
+    [EmtRepTypes.EVENT_TYPE_DIVISION_BONDING]: 'Division Bonding Event'
 };

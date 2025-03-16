@@ -63,5 +63,5 @@ export class GetEventResponseDto {
     is_private: boolean;
 
     /** The group/member(s) rsvps have been requested from */
-    requested_rsvps?: { requested_entity_id: number; type: EventRequestedRsvpType }[];
+    requested_rsvps?: { requested_entity_id: string; type: EventRequestedRsvpType }[];
 }
