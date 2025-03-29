@@ -7,7 +7,7 @@
 // 019 = 25 (DEC) = SELF
 // 2 = 2 (DEC) = CREATE
 
-// Last inserted permission enum value = 118
+// Last inserted permission enum value = 119
 // PLEASE UPDATE THIS IF YOU ADD A PERMISSION
 
 export enum PermissionObjectNames {
@@ -71,6 +71,7 @@ export enum PermissionObjectNames {
     EMT__LOG__TRAINING = 53,
     EMT__LOG__TWITCH = 54,
     EMT__LOGS = 55,
+    EMT__EVENT__SCHEDULE = 119,
     EMT__LOG__DIVISION_BONDING = 120,
 
     // RPG = CRAFTING/ITEM/LEVEL/PERK/STEAL SYSTEM
