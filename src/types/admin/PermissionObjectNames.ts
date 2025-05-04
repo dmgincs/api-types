@@ -7,7 +7,7 @@
 // 019 = 25 (DEC) = SELF
 // 2 = 2 (DEC) = CREATE
 
-// Last inserted permission enum value = 119
+// Last inserted permission enum value = 122
 // PLEASE UPDATE THIS IF YOU ADD A PERMISSION
 
 export enum PermissionObjectNames {
@@ -36,6 +36,7 @@ export enum PermissionObjectNames {
 
     // SELF is for fetching/changing data about THEMSELVES
     SELF = 25, // for getting a basic summary/mini-profile about yourself.
+    SELF__APPEALS = 122,
     SELF__ACCOUNT__SIGNIN = 26,
     SELF__ACCOUNT__SIGNIN_THIRD_PARTY = 27,
     SELF__AWAY = 28,
@@ -102,6 +103,7 @@ export enum PermissionObjectNames {
 
     // ADMIN
     ADMIN__LOGS = 80,
+    APPEALS = 121,
     AWARDS = 81,
     AWARDS__ISSUED = 82,
     FILES = 83,

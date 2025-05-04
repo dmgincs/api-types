@@ -6,3 +6,4 @@ export enum StrikeTypes {
 
 // move to some table later?
 export const BLACKLIST_WARNING_POINTS = 12;
+export const STRIKE_APPEAL_TIME_LIMIT_DAYS = 60;

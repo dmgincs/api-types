@@ -21,7 +21,7 @@ export class IssuedStrikeResponseDro {
     /** The amount of points the member received for the strike */
     points: number | null;
 
-    /** The reason of why the member received the strike */
+    /** The reason why the member received the strike */
     content: string;
 
     /** The content for moderators */
@@ -44,4 +44,12 @@ export class IssuedStrikeResponseDro {
 
     /** The ID of the member whom revoked the strike */
     deleted_by: number | null;
+
+    /** Whether the strike can be appealed */
+    appealable: boolean | null;
+}
+
+export class IssuedStrikeForMemberResponseDro extends IssuedStrikeResponseDro {
+    /** Whether the member can appeal the strike */
+    appealable: boolean;
 }
