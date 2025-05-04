@@ -24,4 +24,7 @@ export class InventoryResponseDto {
 
     /** How many of the item are in the stack */
     quantity: number;
+
+    /** The list of all inventory item IDs in the inventory matching this item ID */
+    inventory_item_ids: number[];
 }
