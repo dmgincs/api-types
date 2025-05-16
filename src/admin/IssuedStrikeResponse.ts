@@ -48,8 +48,3 @@ export class IssuedStrikeResponseDro {
     /** Whether the strike can be appealed */
     appealable: boolean | null;
 }
-
-export class IssuedStrikeForMemberResponseDro extends IssuedStrikeResponseDro {
-    /** Whether the member can appeal the strike */
-    appealable: boolean;
-}
