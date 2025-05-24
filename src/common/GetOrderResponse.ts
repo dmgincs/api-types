@@ -5,4 +5,10 @@ export class GetOrderResponseDto {
 
     /** The image of the order */
     image: string;
+
+    /** The color associated with the order */
+    color: string;
+
+    /** Whether the order is enabled or not */
+    enabled: boolean;
 }
