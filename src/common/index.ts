@@ -44,3 +44,5 @@ export * from './UnlinkMinecraftRequest';
 export * from './UpdateDiscordRolesRequest';
 export * from './UpdateMobileSettingsRequest';
 export * from './GetHostsTopFiveResponse';
+export * from './GetActivityTierResponse';
+export * from './GetAllActivityTiersResponse';
