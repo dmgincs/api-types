@@ -1,4 +1,4 @@
-import { HOUR_SECONDS } from './Date';
+import { HOUR_SECONDS, MINUTE_SECONDS } from './Date';
 import { EventTypes } from '~/constants/Events';
 
 export const EmtSettings = {
@@ -28,6 +28,7 @@ export const EmtSettings = {
 
     /* hosting awards */
     REP_RATE_HOSTING: 5,
-    MAX_HOSTING_REP_ATTENDEE_BONUS: 15,
-    HOSTING_REP_EARLY_POST_BONUS: 5
+    MAX_HOURLY_HOSTING_REP_ATTENDEE_BONUS: 15,
+    HOSTING_REP_EARLY_POST_BONUS: 5,
+    MIN_SECONDS_FOR_ATTENDEE_TO_COUNT_TOWARD_BONUS: 15 * MINUTE_SECONDS
 };

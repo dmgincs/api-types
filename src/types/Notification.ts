@@ -20,6 +20,7 @@ export enum NotificationApplications {
     AWARDS = 4096,
     REP_CAP_NOTIFICATION = 8192,
     BATTLEPASS_GIFT = 16384,
+    ITEM_NO_LONGER_HIDDEN = 32768
 }
 
 export const NotificationApplicationsInfo: { [key in NotificationApplications]: { description: string; platforms: NotificationPlatforms } } = {
@@ -49,6 +50,10 @@ export const NotificationApplicationsInfo: { [key in NotificationApplications]: 
     },
     [NotificationApplications.ITEM_DROPS]: {
         description: 'Item drops notifications.',
+        platforms: NotificationPlatforms.DISCORD | NotificationPlatforms.MOBILE | NotificationPlatforms.WEBAPP
+    },
+    [NotificationApplications.ITEM_NO_LONGER_HIDDEN]: {
+        description: 'Item no longer hidden notifications.',
         platforms: NotificationPlatforms.DISCORD | NotificationPlatforms.MOBILE | NotificationPlatforms.WEBAPP
     },
     [NotificationApplications.MEMBER_DUES]: {
