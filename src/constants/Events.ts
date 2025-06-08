@@ -62,3 +62,5 @@ export const EventRsvpInvitePermissionObjects: { [key: string]: PermissionObject
 };
 
 export const NumberOfFreeCoachingEvents = 2;
+
+export const MaxEventTitleLength = 100;
