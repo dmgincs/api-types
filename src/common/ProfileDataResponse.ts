@@ -1,4 +1,5 @@
 /* eslint-disable max-classes-per-file */
+import { ActivityTiers } from '~/constants/ActivityTiers';
 
 export class ProfileDataResponseDto {
     /** The ID of the member */
@@ -90,6 +91,12 @@ export class ProfileDataResponseDto {
 
     /** Whether the member is a trusted host */
     is_trusted_host: boolean;
+
+    /** Activity tier based on this month\s XP */
+    current_activity_tier: ActivityTiers;
+
+    /** Activity tier stored from last month\s XP. (This will be active till the member\s current month exceeds previous month\s XP) */
+    previous_activity_tier: ActivityTiers;
 }
 
 export class GetProfileDataDto {
