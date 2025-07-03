@@ -8,4 +8,7 @@ export class GetCommonGameResponseDto {
 
     /** The roles associated with the game */
     roles: string[];
+
+    /** The amount of members that have this game listed as their primary game */
+    member_count: number;
 }
