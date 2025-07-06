@@ -25,7 +25,7 @@ export enum NotificationApplications {
 
 export const NotificationApplicationsInfo: { [key in NotificationApplications]: { description: string; platforms: NotificationPlatforms } } = {
     [NotificationApplications.INACTIVITY]: {
-        description: 'Notifications regarding being set to inactive, including an initiate reminder.',
+        description: 'Notifications regarding being set to inactive, including a rookie reminder.',
         platforms: NotificationPlatforms.DISCORD | NotificationPlatforms.MOBILE | NotificationPlatforms.WEBAPP
     },
     [NotificationApplications.DAILY_EVENT_OVERVIEW]: {

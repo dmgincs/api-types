@@ -20,7 +20,7 @@ export class ProfileDataResponseDto {
     /** The group ID of the member */
     member_group_id: number;
 
-    /** `Whether the member is an initiate that joined in the last ${NewInitiateActivitySettings.NEW_INITIATE_DAYS} days` */
+    /** `Whether the member is an initiate that joined in the last ${NewRookieActivitySettings.NEW_ROOKIE_DAYS} days` */
     is_new_initiate: boolean;
 
     /** The country code of the member */

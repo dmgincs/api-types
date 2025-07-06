@@ -6,7 +6,7 @@ export enum MemberRanks {
     L5 = 19,
     L4 = 6,
     L3 = 14,
-    INITIATE = 10, // L1
+    ROOKIE = 10, // L1
     MEMBER = 9, // L2
     ELITE = 11, // L2
     VETERAN = 12, // L2
@@ -33,7 +33,7 @@ export const LEVELS: { [key in MemberRanks]?: string } = {
     [MemberRanks.VETERAN]: 'L2B',
     [MemberRanks.SENIOR]: 'L2C',
     [MemberRanks.MEMBER]: 'L2D',
-    [MemberRanks.INITIATE]: 'L1'
+    [MemberRanks.ROOKIE]: 'L1'
 };
 
 export const LEVELS_ORDERED = [
@@ -61,7 +61,7 @@ export const MEMBER_RANK_NAMES: { [key in MemberRanks]: string } = {
     [MemberRanks.L5]: 'L5',
     [MemberRanks.L4]: 'L4',
     [MemberRanks.L3]: 'L3',
-    [MemberRanks.INITIATE]: 'Initiate',
+    [MemberRanks.ROOKIE]: 'Rookie',
     [MemberRanks.MEMBER]: 'Member',
     [MemberRanks.ELITE]: 'Elite',
     [MemberRanks.VETERAN]: 'Veteran',
@@ -90,9 +90,9 @@ export const SORT_ORDER = [
     MemberRanks.VETERAN,
     MemberRanks.SENIOR,
     MemberRanks.MEMBER,
+    MemberRanks.ROOKIE,
     MemberRanks.BOT,
     MemberRanks.AWAY,
-    MemberRanks.INITIATE,
     MemberRanks.PROBATION,
     MemberRanks.INACTIVE,
     MemberRanks.APPLICANT,
@@ -128,7 +128,8 @@ export const FULL_MEMBER_RANKS = [
     MemberRanks.VETERAN,
     MemberRanks.SENIOR,
     MemberRanks.MEMBER,
-    MemberRanks.PROBATION
+    MemberRanks.PROBATION,
+    MemberRanks.ROOKIE
 ];
 
 /* The ranks included in MemberRanks that are only assigned as a secondary role */

@@ -37,7 +37,7 @@ export class GetActivityResponseObjectDto {
     /** Whether the member counts towards the activity total */
     countsTowardsActiveTotal: boolean;
 
-    /** `Whether the member joined in the last ${NewInitiateActivitySettings.NEW_INITIATE_DAYS} days` */
+    /** `Whether the member joined in the last ${NewRookieActivitySettings.NEW_ROOKIE_DAYS} days` */
     isNewInitiate: boolean;
 
     /** If member is a new initiate, whether they have met the new initiate activity requirement */
