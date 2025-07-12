@@ -42,8 +42,8 @@ export class MemberLevelResponseDto {
     /** The leadership category levels */
     leadership: MemberLevelCategory | number;
 
-    /** The crafting category levels */
-    crafting: MemberLevelCategory | number;
+    /** The prestige category levels */
+    prestige: MemberLevelCategory | number;
 
     /** The total level of the member */
     totalLevel: number;

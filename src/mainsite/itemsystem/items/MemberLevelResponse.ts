@@ -1,5 +1,5 @@
 
-type LevelKeys = 'leadership' | 'casual_attendance' | 'comp_attendance' | 'hosting' | 'discord' | 'recruiting' | 'crafting';
+type LevelKeys = 'leadership' | 'casual_attendance' | 'comp_attendance' | 'hosting' | 'discord' | 'recruiting' | 'prestige';
 
 export interface MemberLevelResponseValue {
     category_id: number;
