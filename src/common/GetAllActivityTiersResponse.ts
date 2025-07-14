@@ -1,6 +1,6 @@
 /* eslint-disable max-classes-per-file */
 
-class GetAllActivityTiersTier {
+export class GetAllActivityTiersTier {
     /** Activity tier name */
     name: string;
 
