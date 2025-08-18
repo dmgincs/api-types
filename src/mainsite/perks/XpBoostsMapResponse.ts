@@ -24,4 +24,7 @@ export class XpBoostsMapResponseDto {
 
     /** Crafting XP Boost */
     crafting: number;
+
+    /** Prestige XP Boost */
+    prestige: number;
 }
