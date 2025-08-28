@@ -35,6 +35,9 @@ export class XpBoostNamesDto {
 
     /** Boost applied to crafting category */
     crafting: BoostNameDto;
+
+    /** Boost applied to prestige category */
+    prestige: BoostNameDto;
 }
 
 export class BoostNamesResponseDto {
