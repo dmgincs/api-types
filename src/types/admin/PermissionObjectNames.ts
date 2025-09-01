@@ -7,7 +7,7 @@
 // 019 = 25 (DEC) = SELF
 // 2 = 2 (DEC) = CREATE
 
-// Last inserted permission enum value = 124
+// Last inserted permission enum value = 126
 // PLEASE UPDATE THIS IF YOU ADD A PERMISSION
 
 export enum PermissionObjectNames {
@@ -50,6 +50,10 @@ export enum PermissionObjectNames {
     SELF__STATS = 36,
     SELF__STRIKES = 37,
     SELF__BATTLEPASS = 117,
+
+    // GAME WARS
+    GAME_WARS__COMMUNITY_COMPETITION = 125,
+    GAME_WARS__HISTORY = 126,
 
     // EMT
     EMT__EVENT = 38,
