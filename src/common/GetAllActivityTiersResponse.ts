@@ -11,7 +11,7 @@ export class GetAllActivityTiersTier {
     color: string;
 
     /** The benefits associated with this activity tier */
-    benefits: string[];
+    benefits: readonly string[];
 }
 
 export class GetAllActivityTiersResponseDto {

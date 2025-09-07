@@ -20,10 +20,11 @@ export interface ActivityTierData {
     name: ActivityTiers;
     xp_needed: number;
     color: string;
-    benefits: string[];
+    benefits: readonly string[];
 }
 
-export const ACTIVITY_TIERS_DATA: Record<ActivityTiers, ActivityTierData> = {
+// eslint-disable-next-line spellcheck/spell-checker
+export const ACTIVITY_TIERS_DATA: Readonly<Record<ActivityTiers, ActivityTierData>> = {
     [ActivityTiers.GIGACHAD_GAMER]: {
         name: ActivityTiers.GIGACHAD_GAMER,
         xp_needed: 2000,
@@ -64,4 +65,4 @@ export const ACTIVITY_TIERS_DATA: Record<ActivityTiers, ActivityTierData> = {
         color: '#B7B7B7',
         benefits: []
     }
-};
+} as const;
