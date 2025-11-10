@@ -5,22 +5,23 @@ export enum NotificationPlatforms {
 }
 
 export enum NotificationApplications {
-    INACTIVITY = 1,
-    DAILY_EVENT_OVERVIEW = 2,
-    EVENT_CHANGES = 4,
-    EVENT_REMINDER = 8,
-    AWAY_CHANGES = 16,
-    ATTACK_ITEM = 32,
-    ITEM_DROPS = 64,
-    MEMBER_DUES = 128,
-    MEMBER_GRADUATION = 256,
-    ANNOUNCEMENT = 512,
-    DIVISION_UPDATES = 1024,
-    STRIKES = 2048,
-    AWARDS = 4096,
-    REP_CAP_NOTIFICATION = 8192,
-    BATTLEPASS_GIFT = 16384,
-    ITEM_NO_LONGER_HIDDEN = 32768
+    INACTIVITY = 1 << 0,
+    DAILY_EVENT_OVERVIEW = 1 << 1,
+    EVENT_CHANGES = 1 << 2,
+    EVENT_REMINDER = 1 << 3,
+    AWAY_CHANGES = 1 << 4,
+    ATTACK_ITEM = 1 << 5,
+    ITEM_DROPS = 1 << 6,
+    MEMBER_DUES = 1 << 7,
+    MEMBER_GRADUATION = 1 << 8,
+    ANNOUNCEMENT = 1 << 9,
+    DIVISION_UPDATES = 1 << 10,
+    STRIKES = 1 << 11,
+    AWARDS = 1 << 12,
+    REP_CAP_NOTIFICATION = 1 << 13,
+    BATTLEPASS_GIFT = 1 << 14,
+    ITEM_NO_LONGER_HIDDEN = 1 << 15,
+    MEMBER_QUEST = 1 << 16
 }
 
 export const NotificationApplicationsInfo: { [key in NotificationApplications]: { description: string; platforms: NotificationPlatforms } } = {
@@ -86,6 +87,10 @@ export const NotificationApplicationsInfo: { [key in NotificationApplications]: 
     },
     [NotificationApplications.BATTLEPASS_GIFT]: {
         description: 'Battlepass Gift Notifications.',
+        platforms: NotificationPlatforms.DISCORD | NotificationPlatforms.MOBILE | NotificationPlatforms.WEBAPP
+    },
+    [NotificationApplications.MEMBER_QUEST]: {
+        description: 'Member Quests Notifications.',
         platforms: NotificationPlatforms.DISCORD | NotificationPlatforms.MOBILE | NotificationPlatforms.WEBAPP
     }
 };

@@ -7,7 +7,7 @@
 // 019 = 25 (DEC) = SELF
 // 2 = 2 (DEC) = CREATE
 
-// Last inserted permission enum value = 126
+// Last inserted permission enum value = 127
 // PLEASE UPDATE THIS IF YOU ADD A PERMISSION
 
 export enum PermissionObjectNames {
@@ -106,6 +106,7 @@ export enum PermissionObjectNames {
     SELF__RPG__LEVELS = 70,
     SELF__RPG__PERK = 71,
     SELF__RPG__ACTIVITY_TIERS = 124,
+    SELF__RPG__QUESTS = 127,
 
     // ADMIN
     ADMIN__LOGS = 80,

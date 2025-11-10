@@ -19,6 +19,7 @@ export * from './mainsite/itemsystem/items/index';
 export * from './mainsite/level/index';
 export * from './mainsite/notification/index';
 export * from './mainsite/perks/index';
+export * from './mainsite/quest/index';
 export * from './mainsite/repshop/index';
 export * from './profile/index';
 export * from './reports/index';
