@@ -1,6 +1,6 @@
 /* eslint-disable max-classes-per-file */
 
-export class IssuedStrikeMemberDto {
+export class IssuedStrikeMemberDro {
     /** The ID of the member */
     member_id: number;
 
@@ -15,8 +15,11 @@ export class IssuedStrikeResponseDro {
     /** The ID of the strike */
     strike_id: number;
 
+    /** The ID of the issued strike */
+    issued_strike_id: number;
+
     /** The member who received the strike */
-    member: IssuedStrikeMemberDto;
+    member: IssuedStrikeMemberDro;
 
     /** The amount of points the member received for the strike */
     points: number | null;
@@ -28,7 +31,7 @@ export class IssuedStrikeResponseDro {
     moderator_content: string | null;
 
     /** The member who issued the strike */
-    issuer: IssuedStrikeMemberDto;
+    issuer: IssuedStrikeMemberDro;
 
     /** The date at which the strike was issued */
     issued_at: Date;
