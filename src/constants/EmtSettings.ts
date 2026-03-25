@@ -4,7 +4,7 @@ import { EventTypes } from '~/constants/Events';
 export const EmtSettings = {
     /* post time */
     EARLY_POST_TIME_IN_DAYS: 7,
-    MIN_POST_TIME_HOURS: 24,
+    MIN_POST_TIME_HOURS: 12,
     MAX_POST_TIME_MONTHS: 3,
 
     /* hosting restrictions */
