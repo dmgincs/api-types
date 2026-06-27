@@ -23,8 +23,8 @@ export class GetDivisionGradingOverviewResponseDto {
 
     /** The points distribution for the division\s grading */
     points: { [key in DivisionGradingMetrics]: { points: number; rank: number } } & { total: number };
-
+    
     gradeSince: number;
-
+    
     memberCount: number;
 }

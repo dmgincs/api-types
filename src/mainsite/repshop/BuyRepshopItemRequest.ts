@@ -1,6 +1,6 @@
 
 export class BuyRepshopItemRequestDto {
-
+    
     /** The ID of the item */
     itemId: number;
 

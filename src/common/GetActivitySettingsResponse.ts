@@ -17,8 +17,8 @@ class EventsAttendedThreshold {
 }
 
 export class GetActivitySettingsResponseDto {
-
+    
     discord: DiscordValueThreshold;
-
+    
     events: EventsAttendedThreshold;
 }

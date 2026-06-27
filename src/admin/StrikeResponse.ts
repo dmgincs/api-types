@@ -18,6 +18,6 @@ export class StrikeResponseDto {
 
     /** How much REP is deducted from the person upon strike issuing */
     repPenalty?: number | undefined;
-
+    
     strikeType: StrikeTypes;
 }

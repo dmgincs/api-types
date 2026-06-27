@@ -1,7 +1,7 @@
 import { ItemPackWithBenefitResponseDto } from '~/mainsite/itemsystem/items';
 
 export class EquippedItemPackResponseDto {
-
+    
     pack: ItemPackWithBenefitResponseDto;
 
     /** Whether the full pack is equipped by the member */

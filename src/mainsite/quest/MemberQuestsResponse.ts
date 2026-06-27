@@ -5,7 +5,7 @@ import { QuestType } from '~/types/mainsite/QuestType';
 class MemberQuestDto {
     /** Quest title */
     title: string;
-
+    
     /** Quest type */
     type: QuestType;
 

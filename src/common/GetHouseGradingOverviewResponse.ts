@@ -12,6 +12,6 @@ export class GetHouseGradingOverviewResponseDto {
 
     /** The total amount of points */
     pointsTotal: number;
-
+    
     points: { [key in DivisionGradingMetrics]: { points: number } } & { total: number; totalDivisions: number };
 }

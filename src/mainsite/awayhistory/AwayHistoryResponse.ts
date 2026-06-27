@@ -1,4 +1,3 @@
-/* eslint-disable no-restricted-imports */
 import { MemberRanks } from '~/constants/MemberRanks';
 import { AwayHistoryStatus } from '~/types/mainsite/AwayHistoryStatus';
 

@@ -13,7 +13,7 @@ export class GetLinkedDevicesResponseDto {
     osVersion: string | null;
 
     /** The model of the linked device */
-     model: string | null;
+    model: string | null;
 
     /** The timestamp at which the device was linked */
     linkedTimestamp: Date | null;

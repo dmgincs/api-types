@@ -12,22 +12,22 @@ export interface WebHookPostBodyItem {
 }
 
 export class WebhookRequestDto {
-
+    
     id: number;
-
+    
     created_at: Date;
-
+    
     updated_at?: Date;
-
+    
     cancelled_at?: Date;
-
+    
     order_number: number;
-
+    
     // eslint-disable-next-line spellcheck/spell-checker
     fulfillment_status: string | null;
-
+    
     line_items: WebHookPostBodyItem[];
-
+    
     customer: {
         id: number;
         email: string;

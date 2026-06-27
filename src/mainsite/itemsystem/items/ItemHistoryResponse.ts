@@ -15,7 +15,7 @@ export class ItemHistoryResponseDto {
 
     /** The status of the item */
     status: ItemRecordStatus;
-
+    
     text_status: keyof typeof ItemRecordStatus;
 
     /** The date at which the item was obtained */

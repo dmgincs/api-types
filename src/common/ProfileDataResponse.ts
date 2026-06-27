@@ -100,7 +100,7 @@ export class ProfileDataResponseDto {
 }
 
 export class GetProfileDataDto {
-
+    
     members: {
         [memberID: number]: ProfileDataResponseDto;
     };

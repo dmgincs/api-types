@@ -1,4 +1,3 @@
-/* eslint-disable no-restricted-imports */
 
 export class ProtectionResponseDto {
     /** The length of the protection */
