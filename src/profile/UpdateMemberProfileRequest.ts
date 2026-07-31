@@ -12,18 +12,6 @@ export class UpdateMemberProfileRequestDto {
     
     memberSecondaryGroups: number[];
 
-    /** The member house to update */
-    
-    house: string;
-
-    /** The member division to update */
-    
-    division: string;
-
-    /** The member team to update */
-    
-    team: string;
-
     /** The member order to update */
     
     order: string;
@@ -75,5 +63,12 @@ export class UpdateMemberProfileRequestDto {
     /** set true or false for member being assigned */
     
     assigned: boolean;
-
+    
+    /** The members primary game to update */
+    
+    primaryGame: string;
+    
+    /** The members secondary game to update */
+    
+    secondaryGame: string;
 }
