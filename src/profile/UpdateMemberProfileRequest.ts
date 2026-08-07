@@ -2,73 +2,73 @@
 export class UpdateMemberProfileRequestDto {
     /** The member name to update */
     
-    name: string;
+    name?: string;
 
     /** The member group ID to update */
     
-    memberGroupId: number;
+    memberGroupId?: number;
 
     /** The member secondary groups to update */
     
-    memberSecondaryGroups: number[];
+    memberSecondaryGroups?: number[];
 
     /** The member order to update */
     
-    order: string;
+    order?: string;
 
     /** The member division position to update */
     
-    divisionPosition: string;
+    divisionPosition?: string;
 
     /** The member position to update */
     
-    position: string;
+    position?: string;
 
     /** set true or false for member having EHL */
     
-    ehl: boolean;
+    ehl?: boolean;
 
     /** set true or false for member being coach */
     
-    coach: boolean;
+    coach?: boolean;
 
     /** set true or false for member being a trusted Host */
     
-    trustedHost: boolean;
+    trustedHost?: boolean;
 
     /** set true or false for member being a guest instructor */
     
-    guestInstructor: boolean;
+    guestInstructor?: boolean;
 
     /** The members manager to update */
     
-    managerMemberId: number;
+    managerMemberId?: number;
 
     /** The members recruiter to update */
     
-    recruiterMemberId: number;
+    recruiterMemberId?: number;
 
     /** The members region to update */
     
-    region: string;
+    region?: string;
 
     /** The members cohort to update */
     
-    cohort: string;
+    cohort?: string;
 
     /** The members vanguard to update */
     
-    vanguard: string;
+    vanguard?: string;
 
     /** set true or false for member being assigned */
     
-    assigned: boolean;
+    assigned?: boolean;
     
     /** The members primary game to update */
     
-    primaryGame: string;
+    primaryGame?: string;
     
     /** The members secondary game to update */
     
-    secondaryGame: string;
+    secondaryGame?: string;
 }

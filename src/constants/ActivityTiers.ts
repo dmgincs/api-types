@@ -23,7 +23,6 @@ export interface ActivityTierData {
     benefits: readonly string[];
 }
 
-// eslint-disable-next-line spellcheck/spell-checker
 export const ACTIVITY_TIERS_DATA: Readonly<Record<ActivityTiers, ActivityTierData>> = {
     [ActivityTiers.GIGACHAD_GAMER]: {
         name: ActivityTiers.GIGACHAD_GAMER,

@@ -1,6 +1,5 @@
 /* eslint-disable max-classes-per-file */
 
-/* eslint-disable max-classes-per-file */
 class BetCategoryResponse {
     /** A map of member id -> bet rep */
     betParticipants: { memberId: number; repPaid: number }[];

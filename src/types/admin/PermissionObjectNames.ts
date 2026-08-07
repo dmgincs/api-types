@@ -7,7 +7,7 @@
 // 019 = 25 (DEC) = SELF
 // 2 = 2 (DEC) = CREATE
 
-// Last inserted permission enum value = 127
+// Last inserted permission enum value = 128
 // PLEASE UPDATE THIS IF YOU ADD A PERMISSION
 
 export enum PermissionObjectNames {
@@ -98,6 +98,7 @@ export enum PermissionObjectNames {
     RPG__REPSHOP__DAILY__ITEM__STANDARD = 115,
     RPG__REPSHOP__PROCESS = 65,
     RPG__BATTLEPASS = 118,
+    RPG__QUESTS = 128,
     REPSHOP = 66,
     // managing yourself
     SELF__RPG__BOOSTS = 67,

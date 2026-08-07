@@ -1,4 +1,4 @@
-/* eslint-disable spellcheck/spell-checker */
+ 
 import { LogLevel } from '~/types/admin/LogLevel';
 
 export class LogResponseDto {

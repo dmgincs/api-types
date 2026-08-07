@@ -1,6 +1,5 @@
 /* eslint-disable max-classes-per-file */
 
-/* eslint-disable max-classes-per-file */
 class BetCategoryResponse {
     /** The name of the betting option */
     name: string;

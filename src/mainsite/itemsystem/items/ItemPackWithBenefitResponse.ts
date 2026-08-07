@@ -1,4 +1,3 @@
-/* eslint-disable spellcheck/spell-checker */
 import { ItemPackResponseDto } from './ItemPackResponse';
 
 export class ItemPackWithBenefitResponseDto extends ItemPackResponseDto {

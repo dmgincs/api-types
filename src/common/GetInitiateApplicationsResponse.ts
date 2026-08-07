@@ -1,4 +1,4 @@
-/* eslint-disable spellcheck/spell-checker */
+ 
 /* eslint-disable max-classes-per-file */
 import { ThreadState } from '~/constants/ThreadState';
 

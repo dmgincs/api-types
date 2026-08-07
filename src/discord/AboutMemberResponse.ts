@@ -1,4 +1,3 @@
-/* eslint-disable spellcheck/spell-checker */
 
 export class AboutMemberResponseDto {
     /** The name of the user */

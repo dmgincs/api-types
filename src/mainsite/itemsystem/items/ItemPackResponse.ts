@@ -1,4 +1,3 @@
-/* eslint-disable spellcheck/spell-checker */
 
 export class ItemPackResponseDto {
     /** The ID of the item pack */

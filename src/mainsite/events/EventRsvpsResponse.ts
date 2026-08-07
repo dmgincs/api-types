@@ -1,4 +1,3 @@
-/* eslint-disable spellcheck/spell-checker */
 /* eslint-disable max-classes-per-file */
 import { EventRsvpTypes } from '~/constants/Events';
 import { EventBrowserResponseDto } from './EventBrowserResponse';

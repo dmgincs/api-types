@@ -1,4 +1,3 @@
-/* eslint-disable spellcheck/spell-checker */
 
 export class GetNewsResponseDto {
     /** The title of the news post */
