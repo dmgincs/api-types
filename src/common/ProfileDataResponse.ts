@@ -86,10 +86,7 @@ export class ProfileDataResponseDto {
     /** Whether the member is a coach */
     is_coach: boolean;
 
-    /** Whether the member has an EHL */
-    has_ehl: boolean;
-
-    /** Whether the member is a trusted host */
+    /** Whether the member is trusted to host real life events */
     is_trusted_host: boolean;
 
     /** Activity tier based on this month\s XP */
